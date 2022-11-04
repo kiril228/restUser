@@ -1,0 +1,11 @@
+create schema rest
+
+create table user
+(
+    id int primary key auto_increment,
+    name varchar(32) not  null,
+    surname varchar(32) not null,
+    date_of_birth date not null
+);
+
+
