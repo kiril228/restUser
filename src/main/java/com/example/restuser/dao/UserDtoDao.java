@@ -6,6 +6,11 @@ import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
 
+/**
+ *
+ * @UserDtoDao - a special class for processing the userDTO
+ * model and for working with the database.
+ */
 @Component
 public class UserDtoDao {
 

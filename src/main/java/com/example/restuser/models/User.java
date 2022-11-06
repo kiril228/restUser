@@ -4,6 +4,9 @@ import javax.persistence.*;
 import java.time.LocalDate;
 import java.util.Date;
 
+/**
+ * @User - entity class for table(name = "user")
+ */
 @Entity
 @Table(name = "user")
 public class User {

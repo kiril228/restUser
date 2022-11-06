@@ -5,6 +5,9 @@ import com.example.restuser.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * @author Kirill Nizhnik
+ */
 @RestController
 @RequestMapping("/api")
 public class UserRestController {

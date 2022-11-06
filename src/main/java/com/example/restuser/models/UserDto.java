@@ -3,6 +3,10 @@ package com.example.restuser.models;
 
 import java.util.Objects;
 
+/**
+ * @author Kirill Nizhnik
+ * @UserDto - for transaction with specific fields
+ */
 public class UserDto {
 
 
